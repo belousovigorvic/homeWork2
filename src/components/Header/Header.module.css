@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.header__logoImg {
+    width: 50px;
+}
+.header__ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+}
+.header__li {
+    cursor: pointer;
+    transition: .5s;
+}
+.header__li:hover {
+    text-shadow: 0px 1px 11px rgba(0,0,0,0.56);
+}

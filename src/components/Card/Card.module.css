@@ -1,0 +1,36 @@
+.card {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    background: linear-gradient(to right, rgba(195, 195, 195, 0.6) 0%, rgba(164, 164, 164, 0.54) 50%, rgba(197, 197, 197, 0.55) 100%);
+}
+
+.card__img {
+    width: 100px;
+    margin: 0 auto;
+}
+
+.card__name {
+    margin: 10px 0px;
+    color: #2a2a2a;
+}
+
+.card__prices {
+    padding: 10px;
+}
+
+.card__price {
+    margin: 20px 40px;
+    color: green;
+}
+
+.card__count {
+
+}
+
