@@ -47,7 +47,6 @@ const App = () => {
                         clear={() => clearCardProduct(item.id)}
                         key={item.id}
                         cardName={item.name}
-                        cardCount={item.count}
                         cardPrice={`${item.price} som`}
                         productImg={item.img}
                     />
